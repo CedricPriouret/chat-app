@@ -1,6 +1,6 @@
-import React from 'react';
-import Navbar from './components/Navbar'
-import QuoteList from './components/QuoteList'
+import React from "react";
+import Navbar from "./components/Navbar";
+import QuoteList from "./components/QuoteList";
 
 function App() {
   return (

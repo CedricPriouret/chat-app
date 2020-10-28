@@ -1,5 +1,5 @@
-import React from 'react';
-import './QuoteCard.css';
+import React from "react";
+import "./QuoteCard.css";
 
 class QuoteCard extends React.Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class QuoteCard extends React.Component {
           <p>
             <cite>{this.props.character}</cite>
             <span
-              className={this.state.favorite ? 'is-favorite' : ''}
-              onClick={event => {
+              className={this.state.favorite ? "is-favorite" : ""}
+              onClick={(event) => {
                 const newFavorite = !this.state.favorite;
                 this.setState({ favorite: newFavorite });
               }}
